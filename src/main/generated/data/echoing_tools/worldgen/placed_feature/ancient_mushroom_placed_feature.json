@@ -1,0 +1,23 @@
+{
+  "feature": "echoing_tools:ancient_mushroom_configured_feature",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 7
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 3
+    },
+    {
+      "type": "minecraft:count",
+      "count": 3
+    }
+  ]
+}

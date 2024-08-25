@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "S": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "pattern": [
+    "F",
+    "D",
+    "S"
+  ],
+  "result": {
+    "count": 4,
+    "item": "echoing_tools:sculk_arrow"
+  },
+  "show_notification": true
+}

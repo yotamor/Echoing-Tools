@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "echoing_tools:item/sculk_netherite_boots"
+  }
+}

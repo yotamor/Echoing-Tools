@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "echoing_tools:sculk_netherite_hoe"
+    },
+    "title": {
+      "translate": "advancements.echoing_tools.obtain_sculk_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.echoing_tools.obtain_sculk_hoe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "echoing_tools:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoing_tools:sculk_netherite_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

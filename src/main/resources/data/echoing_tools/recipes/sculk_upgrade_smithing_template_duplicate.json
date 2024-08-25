@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DCD",
+    "DTD",
+    "DDD"
+  ],
+  "key": {
+    "C": {
+      "item": "echoing_tools:upgrade_template_core"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "echoing_tools:sculk_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "item": "echoing_tools:sculk_upgrade_smithing_template",
+    "count": 2
+  }
+}

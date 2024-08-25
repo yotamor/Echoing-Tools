@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "echoing_tools:sculk_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "echoing_tools:echoing_ingot"
+  },
+  "result": {
+    "item": "echoing_tools:sculk_netherite_shovel"
+  }
+}

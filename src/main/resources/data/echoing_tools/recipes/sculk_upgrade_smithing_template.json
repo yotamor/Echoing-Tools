@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CDC",
+    "DHD",
+    "CDC"
+  ],
+  "key": {
+    "H": {
+      "item": "echoing_tools:hollow_sculk_upgrade_smithing_template"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "result": {
+    "item": "echoing_tools:sculk_upgrade_smithing_template"
+  }
+}

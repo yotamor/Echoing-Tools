@@ -1,0 +1,6 @@
+run/
+gradle/
+build/
+.kotlin/
+.idea/
+.gradle/

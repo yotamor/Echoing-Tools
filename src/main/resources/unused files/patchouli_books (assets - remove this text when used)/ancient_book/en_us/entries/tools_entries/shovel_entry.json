@@ -1,0 +1,17 @@
+{
+  "name": "The Hoe",
+  "icon": "echoing_tools:sculk_netherite_shovel",
+  "category": "echoing_tools:tools_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After we created the hoe, mining the inside of mountains was a breeze. but we still needed to mine the mantle of them, so we created a powerful shovel that could up the ground incredibly fast. $(br2)The shovel can convert energy spent on mining to speed that will make the digger faster temporarily."
+    },
+    {
+      "type": "image",
+      "images": [
+        "echoing_tools:textures/item/sculk_netherite_shovel.png"
+      ]
+    }
+  ]
+}

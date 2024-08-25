@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "tries": 4,
+    "feature": "echoing_tools:ancient_mushroom_placed"
+  }
+}

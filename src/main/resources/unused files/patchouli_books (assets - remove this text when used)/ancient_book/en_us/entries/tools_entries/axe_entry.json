@@ -1,0 +1,16 @@
+{
+  "name": "The Axe",
+  "icon": "echoing_tools:sculk_netherite_axe",
+  "category": "echoing_tools:tools_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After my team and I created the pickaxe, we created an axe to fight the foes that we found in the caves and the few wardens that we had to kill. $(br2)The axe can make the user more fragile, but it will also make them stronger for almost a minute."
+    },{
+      "type": "image",
+      "images": [
+        "echoing_tools:textures/item/sculk_netherite_axe.png"
+      ]
+    }
+  ]
+}

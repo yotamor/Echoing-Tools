@@ -1,0 +1,14 @@
+{
+  "name": "The Sword",
+  "icon": "echoing_tools:sculk_netherite_sword",
+  "category": "echoing_tools:tools_category",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "echoing_tools:sculk_netherite_sword"
+      },
+      "text": "After my team an I created the axe for fighting foes, we realised that swords are better than axes when we are fighting fewer foes but more of them, so we created a sword. $(br2)The sword will make your foes glow on hit and after about 3 hits your hit will become even more lethal."
+    }
+  ]
+}

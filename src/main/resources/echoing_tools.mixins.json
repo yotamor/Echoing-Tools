@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.kotlinMod.echoing_tools.mixin",
+  "mixins": [
+    "LivingEntityMixin",
+    "PotionRecipes",
+    "SensorActivateCallback"
+  ],
+  "client": [
+    "client.InGameHudMixin"
+  ]
+}

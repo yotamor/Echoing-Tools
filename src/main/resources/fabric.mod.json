@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "echoing_tools",
+  "version": "2.0.0",
+  "name": "Echoing Tools",
+  "description": "A mod that adds new sculk-infused tools and a new type of arrow.",
+  "authors": ["Yotamor"],
+  "contact": {
+    "repo": "https://github.com/User/Yotamor Kotlin Mod"
+  },
+  "license": "GPLv3",
+  "icon": "assets/echoing_tools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.kotlinMod.echoing_tools.DataGen"
+    ],
+    "client": [
+      "me.kotlinMod.echoing_tools.client.EchoingToolsClient"
+    ],
+    "main": [
+      "me.kotlinMod.echoing_tools.EchoingTools"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": ">=1.20.0",
+    "fabric-language-kotlin": ">=1.10.8+kotlin.1.9.0"
+  },
+  "mixins": [
+    "echoing_tools.mixins.json"
+  ]
+}

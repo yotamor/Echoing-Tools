@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "echoing_tools:sculk_netherite_helmet"
+    },
+    "title": {
+      "translate": "advancements.echoing_tools.sculk_armor.title"
+    },
+    "description": {
+      "translate": "advancements.echoing_tools.sculk_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "echoing_tools:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoing_tools:sculk_netherite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "echoing_tools:sculk_netherite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "echoing_tools:sculk_netherite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "echoing_tools:sculk_netherite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}
