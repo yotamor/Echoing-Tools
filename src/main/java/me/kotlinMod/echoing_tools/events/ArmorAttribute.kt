@@ -1,6 +1,7 @@
-package me.kotlinMod.echoing_tools.modItems
+package me.kotlinMod.echoing_tools.events
 
 import com.google.common.collect.Multimap
+import me.kotlinMod.echoing_tools.modItems.ArmorBuilder
 import net.fabricmc.fabric.api.item.v1.ModifyItemAttributeModifiersCallback
 import net.minecraft.entity.EquipmentSlot
 import net.minecraft.entity.attribute.EntityAttribute
@@ -17,7 +18,7 @@ class ArmorAttribute : ModifyItemAttributeModifiersCallback {
         if (stackItem is ArmorItem && stackItem.slotType == slot && stackItem.material == ArmorBuilder.NETH_SCULK) {
             attributeModifiers.put(
                 EntityAttributes.GENERIC_MAX_HEALTH,
-                EntityAttributeModifier(UUID.nameUUIDFromBytes(stackItem.type.name.toByteArray() /* encodes the armor && armor piece of the armor to bytes then generate an uuid out of it */), "sculk armor health bonus", 1.0, EntityAttributeModifier.Operation.ADDITION)
+                EntityAttributeModifier(UUID.nameUUIDFromBytes("sculk_netherite_${stackItem.type.name}.health".toByteArray() /* encodes the armor && armor piece of the armor to bytes then generate an uuid out of it */), "sculk armor health bonus", 1.0, EntityAttributeModifier.Operation.ADDITION)
             )
         }
     }

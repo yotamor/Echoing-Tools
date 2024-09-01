@@ -33,11 +33,9 @@ class AncientMushroomPlacedFeature {
                 listOf(
                     RarityFilterPlacementModifier.of(7),
                     SquarePlacementModifier.of(),
-                    //HeightRangePlacementModifier.uniform(),
                     BiomePlacementModifier.of(),
                     CountMultilayerPlacementModifier.of(3),
-                    CountPlacementModifier.of(3),
-                //BlockFilterPlacementModifier.of(BlockPredicate.matchingBlocks(Vec3i(0, -1, 0), Blocks.SCULK))))
+                    CountPlacementModifier.of(3)
             ))
         }
     }

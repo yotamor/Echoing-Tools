@@ -36,5 +36,6 @@
   "advancements.echoing_tools.obtain_sculk_hoe.title": "Incredible Dedication",
   "advancements.echoing_tools.obtain_sculk_hoe.description": "Use an Echoing Ingot to upgrade a Hoe, and then consider why you didn't listen to your brain who told you to stop upgrading the hoe",
   "advancements.echoing_tools.root.title": "Echoing Tools",
-  "advancements.echoing_tools.root.description": "Your sculky journey has begun"
+  "advancements.echoing_tools.root.description": "Your sculky journey has begun",
+  "enchantment.echoing_tools.spread": "Spread"
 }

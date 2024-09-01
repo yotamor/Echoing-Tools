@@ -5,6 +5,7 @@ import me.kotlinMod.echoing_tools.effects.SculkinessEffect
 import me.kotlinMod.echoing_tools.effects.GenericStatusEffect
 import me.kotlinMod.echoing_tools.enchantments.SculkinessEnchantment
 import me.kotlinMod.echoing_tools.mixin.PotionRecipes
+import me.kotlinMod.echoing_tools.toolClasses.*
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
 import net.fabricmc.fabric.api.`object`.builder.v1.entity.FabricEntityTypeBuilder
@@ -101,11 +102,11 @@ class ModItems {
 
 
         // tools and weapons
-        val nethSculkPickaxe: Item = registerItem("sculk_netherite_pickaxe", PickaxeItem(ToolBuilder.NETH_SCULK_PICK, -1, -2.8f, FabricItemSettings().fireproof()))
-        val nethSculkShovel: Item = registerItem("sculk_netherite_shovel", ShovelItem(ToolBuilder.NETH_SCULK_SHOVEL, 5.5f, -3f, FabricItemSettings().fireproof()))
-        val nethSculkHoe: Item = registerItem("sculk_netherite_hoe", HoeItem(ToolBuilder.NETH_SCULK_HOE, 0, 0f, FabricItemSettings().fireproof()))
-        val nethSculkAxe: Item = registerItem("sculk_netherite_axe", AxeItem(ToolBuilder.NETH_SCULK_AXE, 9f, -3f, FabricItemSettings().fireproof()))
-        val nethSculkSword: Item = registerItem("sculk_netherite_sword", SwordItem(ToolBuilder.NETH_SCULK_SWORD, 7, -2.4f, FabricItemSettings().fireproof()))
+        val nethSculkPickaxe: Item = registerItem("sculk_netherite_pickaxe", SculkPickaxeItem(ToolBuilder.NETH_SCULK_PICK, -1, -2.8f, FabricItemSettings().fireproof()))
+        val nethSculkShovel: Item = registerItem("sculk_netherite_shovel", SculkShovelItem(ToolBuilder.NETH_SCULK_SHOVEL, 5.5f, -3f, FabricItemSettings().fireproof()))
+        val nethSculkHoe: Item = registerItem("sculk_netherite_hoe", SculkHoeItem(ToolBuilder.NETH_SCULK_HOE, 0, 0f, FabricItemSettings().fireproof()))
+        val nethSculkAxe: Item = registerItem("sculk_netherite_axe", SculkAxeItem(ToolBuilder.NETH_SCULK_AXE, 9f, -3f, FabricItemSettings().fireproof()))
+        val nethSculkSword: Item = registerItem("sculk_netherite_sword", SculkSwordItem(ToolBuilder.NETH_SCULK_SWORD, 7, -2.4f, FabricItemSettings().fireproof()))
         val sculkArrow: Item = registerItem("sculk_arrow", SculkArrowItem(FabricItemSettings()))
 
         //effect

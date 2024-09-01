@@ -10,9 +10,6 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback
-import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents
-import net.fabricmc.fabric.api.event.player.UseBlockCallback
-import net.fabricmc.fabric.api.event.player.UseItemCallback
 import net.fabricmc.fabric.api.item.v1.ModifyItemAttributeModifiersCallback
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents
 import net.minecraft.block.DispenserBlock
@@ -50,11 +47,7 @@ class EchoingTools : ModInitializer {
         registerDispenserBehaviour()
         generateAncientMushrooms()
 
-        EffectAddCallBack.EVENT.register(EntityEffectEvent())
-        PlayerBlockBreakEvents.AFTER.register(PlayerMinesEvent())
         AttackEntityCallback.EVENT.register { player: PlayerEntity, world: World, hand: Hand, entity: Entity, hitResult: EntityHitResult? -> EntityAttackEvent().interact(player, world, hand, entity, hitResult) }
-        UseItemCallback.EVENT.register(PlayerRightClickEvent())
-        UseBlockCallback.EVENT.register(PlayerRightClickOnBlockEvent())
         ModifyItemAttributeModifiersCallback.EVENT.register(ArmorAttribute())
         ServerEntityEvents.ENTITY_UNLOAD.register(EntityUnloadEvent())
         LootTableEvents.MODIFY.register(LootTableEvent())

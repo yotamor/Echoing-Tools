@@ -1,7 +1,0 @@
-{
-  "name": "Ancient Book",
-  "landing_text": "This guidebook contains information about the sculk technology",
-  "creative_tab": "echoing_tools:echoing_tools_creative_tab",
-  "use_resource_pack": true,
-  "text_overflow_mode": "resize"
-}
